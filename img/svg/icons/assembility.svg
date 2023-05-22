@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30" height="18" viewBox="0 0 30 18">
+<g id="Mask_Group_318" data-name="Mask Group 318" transform="translate(-1019 -21)" clip-path="url(#clip-path)">
+<g id="glasses-outline" transform="translate(1016.857 12.857)">
+<path id="Path_40374" data-name="Path 40374" d="M15,15.536a2.143,2.143,0,1,1,4.286,0" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+<line id="Line_22" data-name="Line 22" x2="1.071" transform="translate(30 13.393)" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></line>
+<line id="Line_23" data-name="Line 23" x1="1.071" transform="translate(3.214 13.393)" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></line>
+<path id="Path_40375" data-name="Path 40375" d="M4.286,13.393c0,6.429,1.071,8.571,5.357,8.571S15,19.821,15,13.393c0,0-1.071-1.071-5.357-1.071S4.286,13.393,4.286,13.393Z" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+<path id="Path_40376" data-name="Path 40376" d="M30,13.393c0,6.429-1.071,8.571-5.357,8.571s-5.357-2.143-5.357-8.571c0,0,1.071-1.071,5.357-1.071S30,13.393,30,13.393Z" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+</g>
+</g>
+</svg>

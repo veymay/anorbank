@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ANORBANK — Ilk milliy raqamli bank!</title>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+  <div class="page">
+    <div class="container">
+      <header>
+        <div class="row header_main">
+          <div class="logo">
+            <img src="img/logo.svg" alt="">
+          </div>
+          <ul class="row mini_menu">
+            <li><a href="#" class="active">jismoniy shaxslar</a></li>
+            <li><a href="#">biznes</a></li>
+            <li><a href="#">Bank Haqida</a></li>
+          </ul>
+          <ul class="row links">
+            <li><a href="#">Bankomatlar</a></li>
+            <li><a href="#">Savdo Nuqtalari</a></li>
+          </ul>
+          <ul class="row header_buttons">
+            <li><a href="#"><ion-icon name="glasses-outline"></ion-icon></a></li>
+            <li><a href="tel:1290"><ion-icon name="call-outline"></ion-icon>1290</a></li>
+            <li><ion-icon name="earth-outline"></ion-icon>O'zbekcha <ion-icon name="chevron-down-outline"></ion-icon>
+            </li>
+          </ul>
+        </div>
+        <nav class="row">
+          <div class="main_search"><ion-icon name="search-outline"></ion-icon></div>
+          <ul class="row main_menu">
+            <li><a href="#">Hamkorlar</a></li>
+            <li><a href="#">Kartalar</a></li>
+            <li><a href="#">Omonatlar</a></li>
+            <li><a href="#">Kreditlar</a></li>
+            <li><a href="#">Rossiyadan o'tkazmalar</a></li>
+            <li><a href="#">Tariflar</a></li>
+            <li><a href="#">Valyutalar kursi</a></li>
+          </ul>
+          <div class="mobile_app"><a href="#"><ion-icon name="phone-portrait-outline"></ion-icon>Mobil Ilova</a></div>
+        </nav>
+      </header>
+      <section class="main">
+        <div class="slider">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="slide_text">
+                <div class="slide_text_heading">Anorbank mobil ilova</div>
+                <div class="slide_text_description">Ilovaning barcha imkoniyatlari sizning smartfoningizda.</div>
+                <a href="#" class="btn">Batafsil ma'lumot</a>
+              </div>
+              <div class="slide_image">
+                <img src="https://www.anorbank.uz/upload/iblock/fe9/fe9cd9c0c677c426e7122a281202ae83.png" alt="">
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="slide_text">
+                <div class="slide_text_heading">ANOR muddatli to'lov kartasi</div>
+                <div class="slide_text_description">Foizlarsiz va ortiqcha to'lovlarsiz haqiqiy rejali to'lov</div>
+                <a href="#" class="btn">Batafsil ma'lumot</a>
+              </div>
+              <div class="slide_image">
+                <img src="https://www.anorbank.uz/upload/iblock/90b/90b7e7ba29c49641a15d500459c14268.png" alt="">
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="slide_text">
+                <div class="slide_text_heading">TRIA - 3 tasi 1 da to’lov kartasi</div>
+                <div class="slide_text_description">Kartani onlayn buyurtma qiling va yangi imkoniyatlarni kashf qiling.
+                </div>
+                <a href="#" class="btn">Batafsil ma'lumot</a>
+              </div>
+              <div class="slide_image">
+                <img src="https://www.anorbank.uz/upload/iblock/74b/74bdf95f3687cf4a75a6ac16fdc9caa7.png" alt="">
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="slide_text">
+                <div class="slide_text_heading">ANORBANKda ishonchli omonatlar</div>
+                <div class="slide_text_description">Qulay foiz stavkalari, moslashuvchan shartlar va 100% xavfsizlik
+                  kafolati</div>
+                <a href="#" class="btn">Batafsil ma'lumot</a>
+              </div>
+              <div class="slide_image">
+                <img src="https://www.anorbank.uz/upload/iblock/f3d/f3d6732713f7e380a4467ec1bec147d4.png" alt="">
+              </div>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </section>
+    </div>
+  </div>
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+  <script>
+    var swiper = new Swiper('.slider', {
+      spaceBetween: 30,
+      effect: "fade",
+      loop: true,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+    });
+  </script>
+</body>
+
+</html>

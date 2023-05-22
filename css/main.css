@@ -1,0 +1,194 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap");
+@import url("https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css");
+:root {
+  --main_color: #a30041;
+  --gray_color: #f5f5f7;
+  --text_color: #37363c;
+}
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+body {
+  color: var(--text_color);
+}
+img {
+  width: 100%;
+}
+a {
+  color: inherit;
+}
+a.btn {
+  padding: 14px 25px;
+  border-radius: 6px;
+  color: #fff;
+  font-weight: 600;
+  background: var(--main_color);
+}
+.page {
+  background: var(--gray_color);
+}
+.container {
+  margin: 0 auto;
+  width: 1296px;
+  padding: 0 18px;
+}
+.row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+header .header_main {
+  gap: 36px;
+  font-weight: 500;
+  border-bottom: 1px solid #7f7f9b26;
+}
+header .header_main a:hover {
+  color: var(--main_color);
+}
+.header_main .mini_menu {
+  gap: 24px;
+}
+.header_main .mini_menu a {
+  text-transform: uppercase;
+  font-size: 14px;
+  padding: 21px 0;
+  display: flex;
+  position: relative;
+  letter-spacing: 0.04em;
+}
+.header_main .mini_menu a.active {
+  color: var(--main_color);
+}
+.header_main .mini_menu a.active:before {
+  content: "";
+  width: 100%;
+  height: 3px;
+  background: var(--main_color);
+  border-radius: 0 0 2px 2px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.header_main .mini_menu a:hover {
+  color: var(--main_color);
+}
+.header_main ul.links {
+  margin-left: auto;
+  font-size: 14px;
+}
+.header_main ul.links a {
+  padding: 0 10px;
+  text-transform: capitalize;
+}
+ul.links a:hover {
+  color: var(--main_color);
+}
+ul.header_buttons {
+  gap: 20px;
+  font-size: 14px;
+}
+ul.header_buttons li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+ul.header_buttons a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+ul.header_buttons ion-icon {
+  margin: 0 5px 0 0;
+  font-size: 20px;
+}
+ul.header_buttons li:first-child ion-icon {
+  margin: 0;
+  font-size: 26px;
+}
+nav {
+  font-weight: 500;
+  padding: 15px 0;
+}
+nav ul.main_menu {
+}
+nav ul.main_menu a {
+  padding: 0 12px;
+}
+nav ul.main_menu a:hover {
+  color: var(--main_color);
+}
+.mobile_app {
+  margin-left: auto;
+}
+.mobile_app a {
+  color: var(--main_color);
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+.mobile_app a:hover {
+  color: var(--text_color);
+}
+.mobile_app a ion-icon {
+  font-size: 18px;
+  --ionicon-stroke-width: 46px;
+}
+/* Main Section */
+section.main .slider {
+  padding: 0 20px 0 0;
+  width: 100%;
+  height: 580px;
+  max-height: 580px;
+  min-height: 580px;
+  overflow: hidden;
+  position: relative;
+}
+section.main .slider .swiper-slide {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: var(--gray_color);
+}
+section.main .slider .swiper-pagination {
+  margin: auto 0;
+  width: 12px;
+  height: 55px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0px;
+  left: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+}
+section.main .slider .swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  border: 2px solid var(--main_color);
+  opacity: 0.5;
+  background: var(--gray_color);
+}
+section.main .slider .swiper-pagination-bullet-active {
+  background: var(--main_color);
+  opacity: 1;
+}
+section.main .slider .swiper-slide .slide_text_heading {
+  font-size: 36px;
+  font-weight: 600;
+  margin: 0 0 18px;
+}
+section.main .slider .swiper-slide .slide_text_description {
+  font-size: 24px;
+  font-weight: 500;
+  margin: 0 0 50px;
+}
+section.main .slider .swiper-slide .slide_image {
+  max-width: 50%;
+}
